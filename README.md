@@ -87,3 +87,6 @@ testType = 1
 python3 myMonkey.py
 ```
 
+##### 四、Reference
+[Louis-me/monkeyTest](https://github.com/Louis-me/monkeyTest)
+https://developer.android.com/studio/test/monkey?hl=zh-cn
