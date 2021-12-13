@@ -1,0 +1,198 @@
+  bash arg: -p
+  bash arg: com.eivaagames.RealChess3D.dbzq.m
+  bash arg: --throttle
+  bash arg: 500
+  bash arg: --ignore-timeouts
+  bash arg: --ignore-crashes
+  bash arg: --monitor-native-crashes
+  bash arg: -v
+  bash arg: -v
+  bash arg: -v
+  bash arg: 100
+:Monkey: seed=1639526859157 count=100
+:AllowPackage: com.eivaagames.RealChess3D.dbzq.m
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.camera.CameraLauncher (from package com.android.camera2)
+//   - NOT USING main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.gallery3d.app.GalleryActivity (from package com.android.gallery3d)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.amazon.venezia.Launcher (from package com.amazon.venezia)
+//   - NOT USING main activity com.android.documentsui.LauncherActivity (from package com.android.documentsui)
+//   + Using main activity com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity (from package com.eivaagames.RealChess3D.dbzq.m)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+// Seeded: 1639526859157
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.eivaagames.RealChess3D.dbzq.m/com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.eivaagames.RealChess3D.dbzq.m/com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity } in package com.eivaagames.RealChess3D.dbzq.m
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(623.0,627.0)
+:Sending Touch (ACTION_UP): 0:(629.08563,622.68335)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(723.0,414.0)
+:Sending Touch (ACTION_UP): 0:(722.59924,392.30847)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(263.0,390.0)
+:Sending Touch (ACTION_MOVE): 0:(257.50027,378.03027)
+:Sending Touch (ACTION_UP): 0:(254.3355,365.09622)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(691.0,1227.0)
+:Sending Touch (ACTION_UP): 0:(686.12695,1247.4469)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 130    // KEYCODE_MEDIA_RECORD
+:Sending Key (ACTION_UP): 130    // KEYCODE_MEDIA_RECORD
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.eivaagames.RealChess3D.dbzq.m/com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.eivaagames.RealChess3D.dbzq.m/com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity } in package com.eivaagames.RealChess3D.dbzq.m
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 173    // KEYCODE_DVR
+:Sending Key (ACTION_UP): 173    // KEYCODE_DVR
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(147.0,158.0)
+:Sending Touch (ACTION_UP): 0:(153.43591,158.97658)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(383.0,278.0)
+:Sending Touch (ACTION_MOVE): 0:(381.21793,279.2874)
+:Sending Touch (ACTION_MOVE): 0:(380.04596,292.76135)
+:Sending Touch (ACTION_MOVE): 0:(378.38312,312.08514)
+:Sending Touch (ACTION_MOVE): 0:(377.17535,313.18192)
+:Sending Touch (ACTION_UP): 0:(375.80072,317.4529)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 10    // KEYCODE_3
+:Sending Key (ACTION_UP): 10    // KEYCODE_3
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(150.0,733.0)
+:Sending Touch (ACTION_UP): 0:(150.58105,734.6046)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(192.0,444.0)
+:Sending Touch (ACTION_UP): 0:(201.73232,445.8374)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(650.0,708.0)
+:Sending Touch (ACTION_UP): 0:(641.1027,704.6361)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.eivaagames.RealChess3D.dbzq.m/com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.eivaagames.RealChess3D.dbzq.m/com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity } in package com.eivaagames.RealChess3D.dbzq.m
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(777.0,24.0)
+:Sending Touch (ACTION_UP): 0:(780.51605,24.098118)
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+    // Injection Failed
+:Sending Key (ACTION_DOWN): 104    // KEYCODE_BUTTON_L2
+:Sending Key (ACTION_UP): 104    // KEYCODE_BUTTON_L2
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 279    // KEYCODE_PASTE
+:Sending Key (ACTION_UP): 279    // KEYCODE_PASTE
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(118.0,38.0)
+:Sending Touch (ACTION_UP): 0:(104.74804,37.635307)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 164    // KEYCODE_VOLUME_MUTE
+:Sending Key (ACTION_UP): 164    // KEYCODE_VOLUME_MUTE
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 125    // KEYCODE_FORWARD
+:Sending Key (ACTION_UP): 125    // KEYCODE_FORWARD
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(308.0,253.0)
+:Sending Touch (ACTION_MOVE): 0:(306.68655,243.38428)
+:Sending Touch (ACTION_MOVE): 0:(301.79578,230.90663)
+:Sending Touch (ACTION_MOVE): 0:(299.8264,227.65886)
+:Sending Touch (ACTION_MOVE): 0:(296.21454,217.33334)
+:Sending Touch (ACTION_MOVE): 0:(295.05887,202.10239)
+:Sending Touch (ACTION_MOVE): 0:(292.74918,189.58105)
+:Sending Touch (ACTION_MOVE): 0:(290.55008,185.01935)
+Events injected: 100
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=20 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=25110ms (0ms mobile, 0ms wifi, 25110ms not connected)
+// Monkey finished
